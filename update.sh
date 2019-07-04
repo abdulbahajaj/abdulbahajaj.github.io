@@ -1,5 +1,9 @@
+rm -rf build
+git checkout source
+git add src
+git commit -m "updated source"
+git push origin source
 npm run-script build
-chmod 775 build
 cd build
 git init
 git remote add origin https://github.com/abdulbahajaj/abdulbahajaj.github.io.git
