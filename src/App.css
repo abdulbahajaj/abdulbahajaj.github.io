@@ -13,11 +13,12 @@
       margin-top: 5px;
       font-size: 14px;
       border-top: 1px solid #e74c3c; }
-    .App .Header .links .ExternalLink {
+    .App .Header .ExternalLink {
+      font-size: 25px;
+      padding-left: 10px;
       text-decoration: underline;
-      color: #ecf0f1 !important;
-      padding: 5px; }
-      .App .Header .links .ExternalLink .icon {
+      color: #ecf0f1 !important; }
+      .App .Header .ExternalLink .icon {
         padding-right: 2px; }
   .App .Navigation {
     padding-top: 15px;
