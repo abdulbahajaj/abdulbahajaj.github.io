@@ -1,10 +1,14 @@
+html, body {
+  min-width: 800px; }
+
 .App {
   text-align: center; }
   .App .Header {
     background-color: #c0392b;
     text-align: center;
     padding: 8px;
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    display: block; }
     .App .Header .name {
       font-size: 35px;
       font-weight: bold; }
