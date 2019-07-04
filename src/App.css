@@ -6,20 +6,22 @@
     padding: 8px;
     color: #ecf0f1; }
     .App .Header .name {
-      font-size: 28px;
+      font-size: 35px;
       font-weight: bold; }
     .App .Header .description {
       padding: 8px;
       margin-top: 5px;
-      font-size: 13px;
+      font-size: 14px;
       border-top: 1px solid #e74c3c; }
-    .App .Header .links a {
+    .App .Header .links .ExternalLink {
       text-decoration: underline;
-      color: #ecf0f1;
+      color: #ecf0f1 !important;
       padding: 5px; }
+      .App .Header .links .ExternalLink .icon {
+        padding-right: 2px; }
   .App .Navigation {
     padding-top: 15px;
-    width: 600px;
+    width: 800px;
     text-align: left;
     margin-left: auto;
     margin-right: auto; }
@@ -35,11 +37,12 @@
       .App .Navigation .article:hover .title {
         text-decoration: underline; }
       .App .Navigation .article .title {
-        color: #2980b9;
+        color: #2c3e50;
         font-weight: bold;
+        font-size: 25px;
         padding-bottom: 5px; }
       .App .Navigation .article .description {
-        font-size: 12px;
+        font-size: 18px;
         color: #34495e; }
 
 /*# sourceMappingURL=App.css.map */

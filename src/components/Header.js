@@ -1,5 +1,13 @@
 import React from 'react';
 
+function ExternalLink(props){
+    return (
+        <a className="ExternalLink" href={props.href}>
+            <i className={"icon " + props.icon}></i>
+            {props.val}
+        </a>
+    )
+}
 function Header(){
     return (
         <div className="Header">
@@ -10,8 +18,8 @@ function Header(){
                 The views expressed in this blog don't necessary reflect anyone's opinion
             </div>
             <div className="links">
-                <a href="https://github.com/abdulbahajaj">Github</a>
-                <a href="https://www.linkedin.com/in/abdul-bahajaj-016a9337/" >Linkedin</a>
+                <ExternalLink icon="fab fa-github" href="https://github.com/abdulbahajaj" val=""/>
+                <ExternalLink icon="fab fa-linkedin-in" href="https://www.linkedin.com/in/abdul-bahajaj-016a9337" val=""/>
             </div>
         </div>
     )
