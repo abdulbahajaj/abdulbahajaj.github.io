@@ -13,7 +13,12 @@ function Article(props){
 }
 
 function Empty(){
-    return <div className="Empty">None of my wisdom is shared here. YET!</div>
+    return (
+        <div className="Empty">
+            <i className="fas fa-book-open icon"></i>
+            None of my wisdom is shared here. YET!
+        </div>
+    )
 }
 
 function Navigation(){

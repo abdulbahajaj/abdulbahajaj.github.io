@@ -13,13 +13,17 @@
       margin-top: 5px;
       font-size: 14px;
       border-top: 1px solid #e74c3c; }
-    .App .Header .ExternalLink {
-      font-size: 25px;
+    .App .Header .links {
       padding-left: 10px;
-      text-decoration: underline;
-      color: #ecf0f1 !important; }
-      .App .Header .ExternalLink .icon {
-        padding-right: 2px; }
+      display: inline-block;
+      font-weight: normal; }
+      .App .Header .links .ExternalLink {
+        font-size: 28px;
+        padding-left: 10px;
+        text-decoration: underline;
+        color: #ecf0f1 !important; }
+        .App .Header .links .ExternalLink .icon {
+          padding-right: 2px; }
   .App .Navigation {
     padding-top: 15px;
     width: 800px;
@@ -28,9 +32,15 @@
     margin-right: auto; }
     .App .Navigation .Empty {
       color: #2c3e50;
+      padding-top: 25px;
       font-weight: bold;
       text-align: center;
       font-size: 25px; }
+      .App .Navigation .Empty .icon {
+        font-size: 220px;
+        color: #7f8c8d;
+        display: block;
+        padding-bottom: 10px; }
     .App .Navigation .article {
       cursor: pointer;
       padding-bottom: 15px;
